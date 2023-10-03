@@ -1,0 +1,20 @@
+ion-card {
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  .img {
+    height: 200px;
+    background-color: --ion-background-color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+  }
+
+  &:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+  }
+}

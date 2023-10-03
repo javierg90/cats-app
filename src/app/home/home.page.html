@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="false">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Cats App</ion-title>
@@ -34,6 +34,7 @@
       </ion-label>
     </ion-item>
   </ion-list>
+
 
   <ion-grid *ngIf="cats.length != 0">
     <ion-row>

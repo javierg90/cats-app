@@ -14,6 +14,7 @@ import { Cats } from '../interfaces/cats';
   imports: [IonicModule, CommonModule, FormsModule, CatsCardsComponent],
 })
 export class HomePage {
+  arraySkeleton = new Array<20>();
   cats: Cats[] = [];
 
   constructor(private apiCatsServiceService: ApiCatsServiceService) {
