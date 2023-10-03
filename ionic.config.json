@@ -1,0 +1,7 @@
+{
+  "name": "cats-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
